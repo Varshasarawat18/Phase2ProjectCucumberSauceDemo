@@ -1,0 +1,35 @@
+
+//* Phase-2 Project
+
+* Application : https://www.saucedemo.com/
+
+* Create new project using Cucumber with Maven
+
+* Add all the cucumber dependencies
+
+* Add your chromedriver
+
+* You need to add Hooks
+
+* You need to create two feature files
+	
+	1) Login
+		Positive Login
+		Negative Login to validate the error
+
+	2) HomePage
+		Need to add the product to the cart , and product name has to be given from feature file
+
+* Add the associated stepf defs
+
+* Need to add the runner class
+
+* Provide two tags sanity and regression
+
+* run your features using runner class
+
+* run your features using cmd
+
+   * run your features using jenkins and publish the report
+
+*//

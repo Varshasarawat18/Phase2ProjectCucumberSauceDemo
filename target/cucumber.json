@@ -1,0 +1,345 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1384309000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepDefination.LoginPageStepDefination.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 254412300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the correct username and password",
+            "match": {
+              "location": "stepDefination.LoginPageStepDefination.i_enter_the_correct_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121674000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "stepDefination.LoginPageStepDefination.click_on_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4033678800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should land on the home page",
+            "match": {
+              "location": "stepDefination.LoginPageStepDefination.i_should_land_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-15T10:05:26.473Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2538691200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.HookClassSauceDemo.testSetup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Add product to card",
+        "description": "",
+        "id": "login-feature-scenario;add-product-to-card",
+        "after": [
+          {
+            "result": {
+              "duration": 134025700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.HookClassSauceDemo.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 52396900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Add to card for product \"Sauce Labs Backpack\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefination.HomePageStepDefination.i_click_on_Add_to_card_for_product(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27923400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "cart bucket count should be one",
+            "match": {
+              "location": "stepDefination.HomePageStepDefination.cart_bucket_count_should_be_one()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature Scenario",
+    "description": "",
+    "id": "login-feature-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featureFiles/HomePage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1693234000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepDefination.LoginPageStepDefination.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-15T10:05:35.112Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1241990600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.HookClassSauceDemo.testSetup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "This scenario is to define the login happy path",
+        "description": "",
+        "id": "login-feature-scenario;this-scenario-is-to-define-the-login-happy-path",
+        "after": [
+          {
+            "result": {
+              "duration": 88762000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.HookClassSauceDemo.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 261794200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the correct username and password",
+            "match": {
+              "location": "stepDefination.LoginPageStepDefination.i_enter_the_correct_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123669600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "stepDefination.LoginPageStepDefination.click_on_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4050327400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should land on the home page",
+            "match": {
+              "location": "stepDefination.LoginPageStepDefination.i_should_land_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1188158900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepDefination.LoginPageStepDefination.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-15T10:05:42.585Z",
+        "before": [
+          {
+            "result": {
+              "duration": 794950800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.HookClassSauceDemo.testSetup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "This scenario is to define the failure path",
+        "description": "",
+        "id": "login-feature-scenario;this-scenario-is-to-define-the-failure-path",
+        "after": [
+          {
+            "result": {
+              "duration": 59840300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.HookClassSauceDemo.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 181954100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the incorrect username and password",
+            "match": {
+              "location": "stepDefination.LoginPageStepDefination.i_enter_the_incorrect_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62712100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "stepDefination.LoginPageStepDefination.click_on_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28920000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should get the error message \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefination.LoginPageStepDefination.i_should_get_the_error_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature Scenario",
+    "description": "",
+    "id": "login-feature-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featureFiles/LoginSauceDemo.feature",
+    "tags": []
+  }
+]
